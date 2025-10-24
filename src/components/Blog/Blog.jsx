@@ -1,6 +1,6 @@
 import React from 'react';
 
-const Blog = ({blog}) => {
+const Blog = ({blog,handleBlogCount}) => {
 
     const {title,author,cover_img,reading_time,tags}=blog
 
@@ -20,7 +20,7 @@ const Blog = ({blog}) => {
             <button className="btn btn-active btn-success">
                 Mark As Read
             </button>
-            <button className="btn btn-primary">BookMarked</button>
+            <button className="btn btn-primary" onClick={()=>handleBlogCount(blog)}>BookMarked</button>
 
             </div>
         </div>
