@@ -1,0 +1,80 @@
+[
+  {
+    "id": 1,
+    "title": "Mastering React Hooks in 2025",
+    "author": "Ava Mitchell",
+    "author_img": "https://i.pravatar.cc/150?img=1",
+    "cover_img": "https://images.unsplash.com/photo-1581276879432-15a19d654956",
+    "published_date": "2025-09-15",
+    "reading_time": 6,
+    "category": "React",
+    "tags": ["React", "JavaScript", "Frontend"],
+    "excerpt": "React Hooks have transformed how developers build components. Learn how to use them efficiently in 2025.",
+    "content": "React Hooks simplify state and lifecycle management. With new hooks like useTransition and useDeferredValue, developers can handle complex UI updates with ease."
+  },
+  {
+    "id": 2,
+    "title": "A Beginner’s Guide to RESTful APIs",
+    "author": "Noah Carter",
+    "author_img": "https://i.pravatar.cc/150?img=2",
+    "cover_img": "https://images.unsplash.com/photo-1519389950473-47ba0277781c",
+    "published_date": "2025-08-05",
+    "reading_time": 5,
+    "category": "Backend",
+    "tags": ["API", "Node.js", "Express"],
+    "excerpt": "REST APIs power most of the modern web. Here’s how to build your first one with Node.js and Express.",
+    "content": "APIs allow communication between frontend and backend. Using Express, we can easily create routes, handle requests, and respond with JSON."
+  },
+  {
+    "id": 3,
+    "title": "The Art of Writing Clean JavaScript Code",
+    "author": "Liam Rodriguez",
+    "author_img": "https://i.pravatar.cc/150?img=3",
+    "cover_img": "https://images.unsplash.com/photo-1587620962725-abab7fe55159",
+    "published_date": "2025-07-21",
+    "reading_time": 7,
+    "category": "JavaScript",
+    "tags": ["JavaScript", "Clean Code", "Best Practices"],
+    "excerpt": "Writing clean code isn’t just about style—it’s about maintainability, scalability, and teamwork.",
+    "content": "Use meaningful variable names, modularize your code, and prefer pure functions. Linting tools like ESLint can also enforce consistency."
+  },
+  {
+    "id": 4,
+    "title": "UI/UX Trends to Watch in 2025",
+    "author": "Sophia Brown",
+    "author_img": "https://i.pravatar.cc/150?img=4",
+    "cover_img": "https://images.unsplash.com/photo-1600585154340-be6161a56a0c",
+    "published_date": "2025-10-02",
+    "reading_time": 4,
+    "category": "Design",
+    "tags": ["UI", "UX", "Design Trends"],
+    "excerpt": "2025 brings fresh design principles—bold typography, immersive interactions, and minimalist aesthetics.",
+    "content": "Micro-interactions and accessibility are top priorities. Designers now focus more on inclusivity and motion design to enhance user experiences."
+  },
+  {
+    "id": 5,
+    "title": "Exploring Next.js 15 New Features",
+    "author": "Ethan Walker",
+    "author_img": "https://i.pravatar.cc/150?img=5",
+    "cover_img": "https://images.unsplash.com/photo-1522202176988-66273c2fd55f",
+    "published_date": "2025-09-30",
+    "reading_time": 8,
+    "category": "Next.js",
+    "tags": ["Next.js", "SSR", "React"],
+    "excerpt": "Next.js 15 introduces faster builds, improved caching, and native image optimization. Let’s explore what’s new.",
+    "content": "Next.js continues to push the boundaries of React-based SSR and static generation. New routing APIs and improved performance make it even better for production apps."
+  },
+  {
+    "id": 6,
+    "title": "Why TypeScript Is Taking Over JavaScript",
+    "author": "Olivia Kim",
+    "author_img": "https://i.pravatar.cc/150?img=6",
+    "cover_img": "https://images.unsplash.com/photo-1557804506-669a67965ba0",
+    "published_date": "2025-06-12",
+    "reading_time": 5,
+    "category": "TypeScript",
+    "tags": ["TypeScript", "JavaScript", "Development"],
+    "excerpt": "TypeScript is now a must-have skill for frontend and backend developers alike. Here’s why.",
+    "content": "TypeScript offers static type checking, better tooling, and fewer runtime errors. It improves developer productivity and application reliability."
+  }
+]
