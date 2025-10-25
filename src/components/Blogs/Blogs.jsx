@@ -13,8 +13,18 @@ const Blogs = ({blogsFetch}) => {
         const newBlogCount=[...blogCount,blog]
         setBlogCount(newBlogCount)
 
+
     }
-    console.log(blogCount);
+    
+
+
+    const handleDelete=(id)=>{
+
+        const remainingBlogMarked=blogCount.filter(blog=>blog.id!==id)
+        const newCount=[...remainingBlogMarked]
+        setBlogCount(newCount)
+
+    }
 
 
     return (
@@ -33,9 +43,12 @@ const Blogs = ({blogsFetch}) => {
             <div className="card bg-neutral text-neutral-content w-96 h-full ml-4">
         <div className="card-body items-center text-center">
             <h2 className="card-title">Blogbookmarked:{blogCount.length}</h2>
-            <p className='text-white'>{blogCount.map(title=><p>
-                {title.title}
-            </p>)}</p>
+           <div> {blogCount.map(title=>< p className='flex' key={title.id} >
+
+
+                {title.title.slice(0,15)} <button onClick={()=>handleDelete(title.id)} className="btn btn-active btn-error ml-4 mb-4" >Delete</button>
+
+            </p>)}</div>
             <div className="card-actions justify-end">
            
             </div>
